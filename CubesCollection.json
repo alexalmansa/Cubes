@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "ec8024da-443a-4902-9b96-3e9ef64de500",
+		"name": "CubesCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "update Cube",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"centerPoint\": \n        {\"x\": 1,\n        \"y\": 1.0,\n        \"z\": 2.0},\n    \"edgeLength\": 2\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cubes/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cubes",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Cube",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"centerPoint\": \n        {\"x\": 1,\n        \"y\": 1.0,\n        \"z\": 2.0},\n    \"edgeLength\": 2\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cubes/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cubes",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOneCube",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"centerPoint\": \n        {\"x\": 1,\n        \"y\": 1.0,\n        \"z\": 2.0},\n    \"edgeLength\": 2\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cubes/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cubes",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all cubes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"centerPoint\": \n        {\"x\": 1,\n        \"y\": 1.0,\n        \"z\": 2.0},\n    \"edgeLength\": 2\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cubes/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cubes",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "intersect",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
