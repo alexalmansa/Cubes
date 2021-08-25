@@ -18,6 +18,6 @@ POST http://localhost:8080/cubes/update It updates a cube
 
 GET http://localhost:8080/cubes/intersect It calculates the intersection of a cube
 
-#Testing
+Testing
 
 There are also some tests in the test folder that ensure the correct behavior of the system. 
